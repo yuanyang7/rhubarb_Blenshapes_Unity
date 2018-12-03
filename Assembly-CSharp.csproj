@@ -53,7 +53,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\blendshapes copy.cs" />
      <Compile Include="Assets\blendshapes.cs" />
+     <Compile Include="Assets\blendshapes_hel copy.cs" />
+     <Compile Include="Assets\blendshapes_hel.cs" />
+     <None Include="Assets\output.txt" />
  <Reference Include="UnityEditor.StandardEvents">
  <HintPath>/Users/yangyuan/Documents/260/proj/New Unity Project/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
  </Reference>

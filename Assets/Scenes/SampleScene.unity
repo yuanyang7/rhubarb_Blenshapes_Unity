@@ -526,7 +526,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1475789601
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -541,8 +541,9 @@ MonoBehaviour:
   jawOpen: 0
   mouthFunnel: 0
   mouthPucker: 0
-  MusicClip: {fileID: 0}
+  MusicClip: {fileID: 8300000, guid: 90869812b06344344b5d1f62bc59d971, type: 3}
   MusicSource: {fileID: 0}
+  path: Assets/output.txt
 --- !u!95 &1475789602
 Animator:
   serializedVersion: 3
@@ -678,3 +679,99 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+--- !u!1001 &2017274968
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 13700000, guid: 0aff0c68fe25148fd8d119dccf81953f, type: 3}
+      propertyPath: m_BlendShapeWeights.Array.size
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0aff0c68fe25148fd8d119dccf81953f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0aff0c68fe25148fd8d119dccf81953f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0aff0c68fe25148fd8d119dccf81953f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.61
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0aff0c68fe25148fd8d119dccf81953f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0aff0c68fe25148fd8d119dccf81953f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0aff0c68fe25148fd8d119dccf81953f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0aff0c68fe25148fd8d119dccf81953f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0aff0c68fe25148fd8d119dccf81953f, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0aff0c68fe25148fd8d119dccf81953f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 13700000, guid: 0aff0c68fe25148fd8d119dccf81953f, type: 3}
+      propertyPath: m_BlendShapeWeights.Array.data[7]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 13700000, guid: 0aff0c68fe25148fd8d119dccf81953f, type: 3}
+      propertyPath: m_BlendShapeWeights.Array.data[0]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 13700000, guid: 0aff0c68fe25148fd8d119dccf81953f, type: 3}
+      propertyPath: m_BlendShapeWeights.Array.data[5]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 13700000, guid: 0aff0c68fe25148fd8d119dccf81953f, type: 3}
+      propertyPath: m_BlendShapeWeights.Array.data[6]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 13700000, guid: 0aff0c68fe25148fd8d119dccf81953f, type: 3}
+      propertyPath: m_BlendShapeWeights.Array.data[2]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 13700000, guid: 0aff0c68fe25148fd8d119dccf81953f, type: 3}
+      propertyPath: m_BlendShapeWeights.Array.data[8]
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0aff0c68fe25148fd8d119dccf81953f, type: 3}
+  m_IsPrefabAsset: 0
+--- !u!1 &2017274969 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100002, guid: 0aff0c68fe25148fd8d119dccf81953f,
+    type: 3}
+  m_PrefabInternal: {fileID: 2017274968}
+--- !u!114 &2017274970
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2017274969}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2152684f939e94ecd9b909302c43df5a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  jawOpen: 0
+  mouthFunnel: 0
+  mouthPucker: 0
+  MusicClip: {fileID: 8300000, guid: 90869812b06344344b5d1f62bc59d971, type: 3}
+  MusicSource: {fileID: 0}
+  path: Assets/output.txt
