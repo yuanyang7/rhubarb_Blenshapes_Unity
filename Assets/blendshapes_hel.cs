@@ -64,19 +64,19 @@ public class blendshapes_hel : MonoBehaviour {
                 AddValuesList(valuesList.Count - 1, 0, 0, 100);
             }
            else if(splitArray[1] == "B"){
-                AddValuesList(valuesList.Count - 1, 30, 0, 0);
+                AddValuesList(valuesList.Count - 1, 0, 0, 0);
            }
            else if(splitArray[1] == "C"){
-                AddValuesList(valuesList.Count - 1, 60, 0, 0);
+                AddValuesList(valuesList.Count - 1, 30, 0, 0);
            }           
            else if(splitArray[1] == "D"){
-                AddValuesList(valuesList.Count - 1, 100, 0, 0);
+                AddValuesList(valuesList.Count - 1, 80, 0, 0);
            }            
            else if(splitArray[1] == "E"){
-                AddValuesList(valuesList.Count - 1, 0, 30, 0);
+                AddValuesList(valuesList.Count - 1, 60, 30, 0);
            }
            else if(splitArray[1] == "F"){
-                AddValuesList(valuesList.Count - 1, 0, 100, 0);
+                AddValuesList(valuesList.Count - 1, 0, 50, 0);
            }
        }
           

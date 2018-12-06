@@ -2209,6 +2209,50 @@ Prefab:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 13700000, guid: 0aff0c68fe25148fd8d119dccf81953f, type: 3}
+      propertyPath: m_BlendShapeWeights.Array.data[3]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 13700000, guid: 0aff0c68fe25148fd8d119dccf81953f, type: 3}
+      propertyPath: m_BlendShapeWeights.Array.data[4]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 13700000, guid: 0aff0c68fe25148fd8d119dccf81953f, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5912f7f65dfbd48ea8af9776efa6217c, type: 2}
+    - target: {fileID: 100018, guid: 0aff0c68fe25148fd8d119dccf81953f, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100030, guid: 0aff0c68fe25148fd8d119dccf81953f, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100026, guid: 0aff0c68fe25148fd8d119dccf81953f, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100028, guid: 0aff0c68fe25148fd8d119dccf81953f, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100032, guid: 0aff0c68fe25148fd8d119dccf81953f, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100016, guid: 0aff0c68fe25148fd8d119dccf81953f, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 0aff0c68fe25148fd8d119dccf81953f, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3fb33a9f3258348e38b50a9f642ebfe5, type: 2}
+    - target: {fileID: 13700000, guid: 0aff0c68fe25148fd8d119dccf81953f, type: 3}
+      propertyPath: m_BlendShapeWeights.Array.data[1]
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0aff0c68fe25148fd8d119dccf81953f, type: 3}
   m_IsPrefabAsset: 0
@@ -2247,7 +2291,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc82c528745f84cc9acd5428820b4359, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MusicSource: {fileID: 2017274972}
   model: {fileID: 2017274969}
+  camera: {fileID: 534669902}
 --- !u!82 &2017274972
 AudioSource:
   m_ObjectHideFlags: 0
